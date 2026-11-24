@@ -217,6 +217,15 @@ a:focus-visible {
 .ratio-16x9 { aspect-ratio: 16 / 9; }
 .ratio-16x10 { aspect-ratio: 16 / 10; }
 .ratio-4x3 { aspect-ratio: 4 / 3; }
+.photo {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  background: var(--slot);
+  border-radius: var(--radius-card);
+}
+.photo--thumb { flex: none; width: 104px; height: 80px; border-radius: var(--radius-button); }
 
 .text-slot {
   padding: var(--space-5);
