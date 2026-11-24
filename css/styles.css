@@ -429,3 +429,5 @@ a.card:hover .card__title { text-decoration: underline; }
 .games__text img { width: 240px; border-radius: var(--radius-button); }
 .games__text .button-row { margin-top: var(--space-2); }
 .contact-band__email a { display: inline-flex; align-items: center; min-height: 44px; text-decoration-thickness: 2px; }
+.soon--small { align-self: flex-start; margin: var(--space-2) 0 0; padding: 0 var(--space-2); font-size: 13px; border-width: 1px; }
+.study__link { display: inline-flex; align-items: center; min-height: 44px; font-weight: 700; color: var(--white); text-decoration-thickness: 2px; }
