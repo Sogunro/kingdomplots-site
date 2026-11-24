@@ -413,3 +413,19 @@ a.card:hover .card__title { text-decoration: underline; }
   .button { transition: none; }
   .button:active { transform: none; }
 }
+
+/* "Coming soon" marker: black text on green, never green text on white. */
+.soon {
+  display: inline-block;
+  margin-bottom: var(--space-5);
+  padding: var(--space-1) var(--space-3);
+  background: var(--green);
+  color: var(--black);
+  border: 2px solid var(--black);
+  border-radius: var(--radius-button);
+  font-weight: 700;
+  font-size: 15px;
+}
+.games__text img { width: 240px; border-radius: var(--radius-button); }
+.games__text .button-row { margin-top: var(--space-2); }
+.contact-band__email a { display: inline-flex; align-items: center; min-height: 44px; text-decoration-thickness: 2px; }
