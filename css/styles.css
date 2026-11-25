@@ -485,3 +485,9 @@ a.card:hover .card__title { text-decoration: underline; }
   .site-footer__inner { grid-template-columns: 2fr 1fr 1fr; }
   .site-footer__about { grid-column: auto; }
 }
+
+/* ---------- Survey report and founder ---------- */
+.report-actions { margin: var(--space-6) 0; }
+.report-actions .button--green { border-color: var(--black); }
+.findings { display: grid; gap: var(--space-3); padding-left: var(--space-5); }
+.founder__photo { flex: none; width: 200px; height: 200px; border-radius: 50%; object-fit: cover; border: 3px solid var(--black); }
