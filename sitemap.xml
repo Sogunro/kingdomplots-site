@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://www.kingdomplots.com/</loc></url>
-  <url><loc>https://www.kingdomplots.com/about.html</loc></url>
+  <url><loc>https://www.kingdomplots.com/articles.html</loc></url>
   <url><loc>https://www.kingdomplots.com/article.html</loc></url>
+  <url><loc>https://www.kingdomplots.com/research.html</loc></url>
+  <url><loc>https://www.kingdomplots.com/films.html</loc></url>
+  <url><loc>https://www.kingdomplots.com/debate.html</loc></url>
+  <url><loc>https://www.kingdomplots.com/tech.html</loc></url>
+  <url><loc>https://www.kingdomplots.com/events.html</loc></url>
+  <url><loc>https://www.kingdomplots.com/about.html</loc></url>
   <url><loc>https://www.kingdomplots.com/privacy.html</loc></url>
 </urlset>

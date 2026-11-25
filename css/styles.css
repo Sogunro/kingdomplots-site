@@ -440,3 +440,48 @@ a.card:hover .card__title { text-decoration: underline; }
 .contact-band__email a { display: inline-flex; align-items: center; min-height: 44px; text-decoration-thickness: 2px; }
 .soon--small { align-self: flex-start; margin: var(--space-2) 0 0; padding: 0 var(--space-2); font-size: 13px; border-width: 1px; }
 .study__link { display: inline-flex; align-items: center; min-height: 44px; font-weight: 700; color: var(--white); text-decoration-thickness: 2px; }
+
+/* ---------- Section pages ---------- */
+.hero--page { padding-bottom: var(--space-7); }
+.hero--page h1 { max-width: 20ch; font-size: clamp(36px, 5.4vw, 64px); }
+.title-link { text-decoration: none; }
+.title-link:hover { text-decoration: underline; text-decoration-thickness: 3px; }
+.section-action { margin-top: var(--space-6); }
+.questions--light .question { border-top-color: var(--black); }
+
+/* ---------- Swipeable cards on phones ---------- */
+.swipe-hint { display: none; }
+@media (max-width: 639px) {
+  .swipe-hint { display: block; margin: calc(-1 * var(--space-4)) 0 var(--space-3); font-weight: 700; font-size: 15px; }
+  .swipe {
+    grid-template-columns: none;
+    grid-auto-flow: column;
+    grid-auto-columns: 84%;
+    gap: var(--space-4);
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    overscroll-behavior-x: contain;
+    margin-left: calc(-1 * var(--gutter));
+    margin-right: calc(-1 * var(--gutter));
+    padding: 0 var(--gutter) var(--space-2);
+    scroll-padding-left: var(--gutter);
+    scrollbar-width: none;
+  }
+  .swipe::-webkit-scrollbar { display: none; }
+  .swipe > * { scroll-snap-align: start; }
+}
+
+/* ---------- Games logo sits straight on the black band ---------- */
+.games__text img.games__logo { width: 260px; border-radius: 0; }
+
+/* ---------- Footer: neat columns on every screen ---------- */
+.site-footer__inner {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--space-6) var(--space-5);
+}
+.site-footer__about { grid-column: 1 / -1; }
+@media (min-width: 900px) {
+  .site-footer__inner { grid-template-columns: 2fr 1fr 1fr; }
+  .site-footer__about { grid-column: auto; }
+}
