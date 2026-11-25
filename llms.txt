@@ -1,0 +1,22 @@
+# Kingdom Plots
+
+> Kingdom Plots is a Christian platform exploring the relationship between faith, economics, politics and society. It brings biblical wisdom to the economic, social and political questions Christians face, through articles, research, films, debate, tech and AI services, events and games.
+
+Founder: Toluwase Sogunro, a product manager with more than six years' experience.
+Bible quotations on the site use the King James Version (KJV).
+
+## Sections
+- [Articles](https://www.kingdomplots.com/articles.html): writing on what the Bible teaches about money, business, work, family, government and society.
+- [Christian Singles Survey report](https://www.kingdomplots.com/article.html): 2,381 Christian singles told us how they date, what they look for and what money has to do with it.
+- [Research](https://www.kingdomplots.com/research.html): we ask Christians what they think and how they live, then publish what we find.
+- [Films](https://www.kingdomplots.com/films.html): films that bring the Bible's teaching to today's economic and social questions (coming soon).
+- [Debate](https://www.kingdomplots.com/debate.html): one hard question, two Christian writers, both arguing from the Bible.
+- [Tech and AI](https://www.kingdomplots.com/tech.html): tech advisory, solutions development and AI guidance for churches, ministries and Christian businesses.
+- [Events](https://www.kingdomplots.com/events.html): coming soon.
+- [About](https://www.kingdomplots.com/about.html): mission, vision and founder.
+
+## Games
+- [Kingdom Plots Games](https://www.kingdomplotsgames.com): free Bible quizzes, word searches and Bible journeys.
+
+## Contact
+- hello@kingdomplotsgames.com
